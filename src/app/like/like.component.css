@@ -1,0 +1,12 @@
+.glyphicon-heart:hover {
+    cursor:pointer;
+}
+
+.glyphicon-heart-empty:hover {
+    cursor:pointer;
+}
+
+.like, .count{
+    display: inline;
+    padding: 10px;
+}

@@ -1,0 +1,22 @@
+.loader {
+    margin-top: 10px;
+    display: inline-block;
+    border: 5px solid gray; /* Light grey */
+    border-top: 5px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    animation: spin 2s linear infinite;
+}
+.checking{
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;        
+    top: 20.8%;                       
+    transform: translate(0, -50%)
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

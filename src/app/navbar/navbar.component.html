@@ -1,0 +1,40 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li routerLinkActive="active current"><a routerLink="/">Home</a></li>
+        <li routerLinkActive="active current"><a routerLink="/followers">Followers</a></li>
+        <li routerLinkActive="active current"><a routerLink="/posts">Post</a></li>
+
+        <li class="dropdown" dropdown>
+          <a href dropdownToggle (click)="false" class="dropdown-toggle" data-toggle="dropdown" role="button"
+            aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul *dropdownMenu class="dropdown-menu">
+            <li routerLinkActive="active current" role="menuitem">
+              <a routerLink="/change-password">Change Password</a>
+            </li>
+            <li routerLinkActive="active current" role="menuitem">
+              <a routerLink="/contact-form">Contact Form</a>
+            </li>
+            <li routerLinkActive="active current" role="menuitem">
+              <a routerLink="/course-form">Course Form</a>
+            </li>
+            <li routerLinkActive="active current" role="menuitem">
+              <a routerLink="/new-course-form">New Course Form</a>
+            </li>
+            <li routerLinkActive="active current" role="menuitem">
+              <a routerLink="/signup-form">Signup Form</a>
+            </li>
+            <li routerLinkActive="active current" role="menuitem">
+              <a routerLink="/star">Star</a>
+            </li>
+            <li routerLinkActive="active current" role="menuitem">
+              <a routerLink="/title-case">Title Case</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

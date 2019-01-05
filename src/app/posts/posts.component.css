@@ -1,0 +1,16 @@
+li:hover{
+    background-color: #f3f3f3;
+}
+
+.list-group{
+    margin-top: 15px;
+}
+
+.list-group-item{
+    height: 50px;
+}
+
+.btn-default, .btn-danger{
+    float: left;
+    margin-right: 5px; 
+}

@@ -1,0 +1,16 @@
+h3{
+    display: inline;
+}
+
+span{
+    float: right;
+}
+
+.panel-heading{
+    cursor: pointer;
+}
+
+.show{
+    background-color: white
+}
+

@@ -1,0 +1,20 @@
+<div class="panel panel-default">
+    
+    <div class="panel-heading"
+    [class.show] = !showDetails
+    (click) = "onClick()">
+
+      <h3 class="panel-title"> {{ title }}</h3>
+      <span class="glyphicon"
+        [ngClass] = "{
+          'glyphicon-chevron-up': showDetails,
+          'glyphicon-chevron-down': !showDetails
+        }"
+      ></span>
+    </div>
+
+    <div *ngIf="showDetails" class="panel-body">
+      <ng-content></ng-content>
+    </div>
+
+</div>
